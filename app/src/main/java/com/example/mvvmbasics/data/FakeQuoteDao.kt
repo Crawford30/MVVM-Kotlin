@@ -6,7 +6,6 @@ import androidx.lifecycle.MutableLiveData
 class FakeQuoteDao {
 
     //can use ROOM incase of SQL
-
     private  val quoteList = mutableListOf<Quote>()
 
     private val quotes = MutableLiveData<List<Quote>>()
