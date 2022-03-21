@@ -6,6 +6,8 @@ import com.example.mvvmbasics.data.QuoteRepository
 
 class QuotesViewModel(private val quoteRepository: QuoteRepository):ViewModel() {
 
+    //Constructor Injection
+
     //private val quoteRepository: QuoteRepository to prevent recreation chnages like potrait or landscape
 
     fun getQuotes() = quoteRepository.getQuotes()
